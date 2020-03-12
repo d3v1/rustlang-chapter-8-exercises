@@ -11,7 +11,10 @@ fn main() {
         total += *i;
     }
 
+    let number_list_mean: i32 = total / number_list.len() as i32;
+
     println!("total {}", total);
+    println!("mean  {}", number_list_mean);
 
 
     // counts
